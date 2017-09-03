@@ -1,0 +1,51 @@
+.header{
+    width:100%;
+    height: 70px;
+    background-color: rgb(254,250,192);
+    margin-top:-10px;
+    padding-top: 3px;
+}
+.lists{
+    padding: 20px;
+    padding-left: 50px;
+}
+.list-title{
+    font-size: 22px;
+}
+.tables{
+    width: 500px;
+    margin-left: 50px;
+}
+.add-btn{
+    width: 60px;
+    height: 30px;
+    background-color: #99cafb;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.text-input{
+    border: none;
+    border-bottom: 1px solid darkgray;
+    outline: none;
+}
+.line-black{
+    border: 1px solid black;
+}
+.hide-link{
+    float: right;
+    margin-right: 40px;
+}
+.links{
+    cursor: pointer;
+}
+.cross-btn{
+    color: red;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.completed{
+    color: green;
+}
+

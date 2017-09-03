@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="header"><center><h1>My Todos</h1></center></div>
+<div class="lists">
+    <span class="list-title"><b>Active Todos</b></span><br>
+    <table id="todolist" class="tables"></table>
+
+</div>
+<div class="line-black"></div>
+<div class="lists">
+    <span class="list-title" style="color: darkgray"><b>Add Todo</b></span><br>
+    <input id="title" type="text" class="text-input" placeholder="Todo Title Goes Here">
+    <button class="add-btn" onclick="addTodo()" >ADD</button>
+</div>
+<div class="line-black"></div>
+<div class="lists">
+    <span class="list-title"><b>Completed Todos</b></span>
+    <span class="hide-link"><a  class="links" onclick="hideCompleted()"><u id="hideoption">Hide Completed</u></a></span>
+    <table id="completedlist" class="tables"></table>
+</div>
+<div class="line-black"></div>
+<div class="lists">
+    <span class="list-title"><b>Deleted Todos</b></span>
+    <span class="hide-link"><a  class="links" onclick="hidedeleted()"><u id="hidedeloption">Hide Deleted</u></a></span>
+    <table id="deletedlist" class="tables"></table>
+</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
